@@ -1,0 +1,4 @@
+q17: apply(initial[complete.cases(initial[,1]),],2,mean)
+q18: apply(subset(initial, Ozone>31&Temp>90),2,mean)
+q19: apply(subset(initial, Month==6),2,mean)
+q20: apply(subset(initial[complete.cases(initial[,1]),],Month==5),2,max)
